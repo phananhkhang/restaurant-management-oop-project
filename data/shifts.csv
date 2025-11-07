@@ -1,0 +1,4 @@
+shiftId,shiftName,startTime,endTime,shiftType,description
+SH001,Ca Sang,06:00,14:00,MORNING,
+SH002,Ca Chieu,14:00,22:00,AFTERNOON,
+SH003,Ca Dem,21:00,07:00,NIGHT,
