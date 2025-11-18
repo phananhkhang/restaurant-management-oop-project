@@ -577,7 +577,7 @@ public class TableUI {
             
             try {
                 // Thêm món vào bill
-                String orderItem = String.format("%s x%d (%s VND)", 
+                String orderItem = String.format("%s x%d", 
                     menuItem.getItemName(), quantity, df.format(menuItem.getPrice()));
                 bill.addItem(orderItem);
                 
