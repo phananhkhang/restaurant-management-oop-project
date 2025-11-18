@@ -73,7 +73,6 @@ public class BillRepository extends AbstractCsvRepository<Bill> {
                 }
             }
         }
-        
         return bill;
     }
 }

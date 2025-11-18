@@ -1,52 +1,54 @@
 itemId,itemName,category,price,description,available,preparationTime
-M001,Pho Bo,FOOD,65000.0,Pho bo truyen thong Ha Noi,true,15
-M002,Bun Cha,FOOD,70000.0,Bun cha Ha Noi chuan vi,true,20
-M003,Com Tam,FOOD,55000.0,Com tam suon bi cha,true,15
-M004,Banh Mi,FOOD,25000.0,Banh mi thit nguoi,true,5
-M005,Goi Cuon,FOOD,30000.0,Goi cuon tom thit,true,10
-M006,Nem Ran,FOOD,35000.0,Nem ran Ha Noi,true,12
-M007,Ca Phe Sua,DRINK,25000.0,Ca phe sua da,true,5
-M008,Tra Da,DRINK,15000.0,Tra da chanh,true,3
-M009,Nuoc Cam,DRINK,30000.0,Nuoc cam tuoi ep,true,5
-M010,Che Ba Mau,DESSERT,35000.0,Che ba mau dac biet,true,8
-M011,Banh Flan,DESSERT,25000.0,Banh flan caramel,true,5
-M012,Lau Thai,FOOD,150000.0,Lau Thai hai san,true,25
-M013,Mi Xao,FOOD,60000.0,Mi xao bo,true,15
-M014,Ga Nuong,FOOD,95000.0,Ga nuong mat ong,true,30
-M015,Salad Rau,FOOD,40000.0,Salad rau tuoi,true,8
-M016,Khoai Tay Chien,SNACK,35000.0,Khoai tay chien gion,true,7
-M017,Pho Mai Que,SNACK,45000.0,Pho mai que chien xu,true,8
-M018,Ngo Chien Bo,SNACK,40000.0,Ngo chien bo toi ot,true,10
-M019,Xuc Xich Chien,SNACK,35000.0,Xuc xich chien an kem,true,6
-M020,Combo Bua Trua,COMBO,65000.0,1 Com tam + 1 Tra da,true,15
-M021,Combo An Vat,COMBO,55000.0,1 Khoai tay chien + 1 Nuoc cam,true,7
-M022,Combo Nhom,COMBO,195000.0,1 Lau Thai + 1 Nem ran,true,25
-M023,Goi Bo Bop Thau,FOOD,85000.0,Goi bo tai chanh,false,0
-M024,Goi Sua Tom Thit,FOOD,90000.0,Goi sua gion,false,0
-M025,Sun Ga Rang Muoi,SNACK,75000.0,Sun ga gion rang muoi ot,false,0
-M026,Dau Hu Chien Gion,SNACK,45000.0,Dau hu non chien gion,false,0
-M027,Vu Heo Nuong Sa Te,FOOD,120000.0,Vu heo nuong sa te cay,true,20
-M028,Ba Chi Bo Nuong Tang,FOOD,150000.0,Ba chi bo My nuong tang,true,20
-M029,Ngheu Hap Sa,FOOD,70000.0,Ngheu hap sa ot,false,0
-M030,Muc Xao Sa Te,FOOD,110000.0,Muc ong xao sa te hanh tay,true,15
-M031,Lau Ech Mang Cay,FOOD,180000.0,Lau ech nau mang cay,true,25
-M032,Lau Rieu Cua Bap Bo,FOOD,220000.0,Lau rieu cua dong,false,0
-M033,Doi Sun Nuong,SNACK,65000.0,Doi sun nuong than hoa,true,12
-M034,Tai Heo Ngam Sa Tac,FOOD,75000.0,Tai heo gion ngam mam sa tac,true,10
-M035,Chan Ga Sot Thai,FOOD,80000.0,Chan ga rut xuong sot Thai chua cay,true,10
-M036,Ech Rang Muoi,FOOD,95000.0,Ech rang muoi la lot,true,15
-M037,Tom Nuong Muoi Ot,FOOD,130000.0,Tom su nuong muoi ot xanh,true,18
-M038,Lac Rang Hung Liu,SNACK,30000.0,Lac rang gion,true,5
-M039,Nem Chua Ran,SNACK,55000.0,Nem chua ran Ha Noi,true,10
-M040,Bo Luc Lac,FOOD,125000.0,Bo luc lac khoai tay chien,true,15
-M041,Ca Keo Nuong Muoi Ot,FOOD,90000.0,Ca keo nuong moi ot rau ram,true,15
-M042,Suon Non Nuong BBQ,FOOD,140000.0,Suon non nuong sot BBQ,true,25
-M043,Combo Nhau Bia,COMBO,249000.0,1 Sun ga rang muoi + 1 Dau hu chien + 2 Bia SG,true,15
+M001,Phở Bò,FOOD,65000.0,Phở bò truyền thống Hà Nội,true,15
+M002,Bún Chả,FOOD,70000.0,Bún chả Hà Nội chuẩn vị,true,20
+M003,Cơm Tấm,FOOD,55000.0,Cơm tấm sườn bì chả,true,15
+M004,Bánh Mì,FOOD,25000.0,Bánh mì thịt nguội,true,5
+M005,Gỏi Cuốn,FOOD,30000.0,Gỏi cuốn tôm thịt,true,10
+M006,Nem Rán,FOOD,35000.0,Nem rán Hà Nội,true,12
+M007,Cà Phê Sữa,DRINK,25000.0,Cà phê sữa đá,true,5
+M008,Trà Đá,DRINK,15000.0,Trà đá chanh,true,3
+M009,Nước Cam,DRINK,30000.0,Nước cam tươi ép,true,5
+M010,Chè Ba Màu,DESSERT,35000.0,Chè ba màu đặc biệt,true,8
+M011,Bánh Flan,DESSERT,25000.0,Bánh flan caramel,true,5
+M012,Lẩu Thái,FOOD,150000.0,Lẩu Thái hải sản,true,25
+M013,Mì Xào,FOOD,60000.0,Mì xào bò,true,15
+M014,Gà Nướng,FOOD,95000.0,Gà nướng mật ong,true,30
+M015,Salad Rau,FOOD,40000.0,Salad rau tươi,true,8
+M016,Khoai Tây Chiên,SNACK,35000.0,Khoai tây chiên giòn,true,7
+M017,Phô Mai Que,SNACK,45000.0,Phô mai que chiên xù,true,8
+M018,Ngô Chiên Bơ,SNACK,40000.0,Ngô chiên bơ tỏi ớt,true,10
+M019,Xúc Xích Chiên,SNACK,35000.0,Xúc xích chiên ăn kèm,true,6
+M020,Combo Bữa Trưa,COMBO,65000.0,1 Cơm tấm + 1 Trà đá,true,15
+M021,Combo Ăn Vặt,COMBO,55000.0,1 Khoai tây chiên + 1 Nước cam,true,7
+M022,Combo Nhóm,COMBO,195000.0,1 Lẩu Thái + 1 Nem rán,true,25
+M023,Gỏi Bò Bóp Thầu,FOOD,85000.0,Gỏi bò tái chanh,false,0
+M024,Gỏi Sứa Tôm Thịt,FOOD,90000.0,Gỏi sứa giòn,false,0
+M025,Sụn Gà Rang Muối,SNACK,75000.0,Sụn gà giòn rang muối ớt,false,0
+M026,Đậu Hũ Chiên Giòn,SNACK,45000.0,Đậu hũ non chiên giòn,false,0
+M027,Vú Heo Nướng Sa Tế,FOOD,120000.0,Vú heo nướng sa tế cay,true,20
+M028,Ba Chỉ Bò Nướng Tảng,FOOD,150000.0,Ba chỉ bò Mỹ nướng tảng,true,20
+M029,Nghêu Hấp Sả,FOOD,70000.0,Nghêu hấp sả ớt,false,0
+M030,Mực Xào Sa Tế,FOOD,110000.0,Mực ống xào sa tế hành tây,true,15
+M031,Lẩu Ếch Măng Cay,FOOD,180000.0,Lẩu ếch nấu măng cay,true,25
+M032,Lẩu Riêu Cua Bắp Bò,FOOD,220000.0,Lẩu riêu cua đồng,false,0
+M033,Đùi Sụn Nướng,SNACK,65000.0,Đùi sụn nướng than hoa,true,12
+M034,Tai Heo Ngâm Sả Tắc,FOOD,75000.0,Tai heo giòn ngâm mắm sa tắc,true,10
+M035,Chân Gà Sốt Thái,FOOD,80000.0,Chân gà rút xương sốt Thái chua cay,true,10
+M036,Ếch Rang Muối,FOOD,95000.0,Ếch rang muối lá lốt,true,15
+M037,Tôm Nướng Muối Ớt,FOOD,130000.0,Tôm sú nướng muối ớt xanh,true,18
+M038,Lạc Rang Hùng Liù,SNACK,30000.0,Lạc rang giòn,true,5
+M039,Nem Chua Rán,SNACK,55000.0,Nem chua rán Hà Nội,true,10
+M040,Bò Lúc Lắc,FOOD,125000.0,Bò lúc lắc khoai tây chiên,true,15
+M041,Cá Kèo Nướng Muối Ớt,FOOD,90000.0,Cá kèo nướng mỡ ớt rau răm,true,15
+M042,Sườn Non Nướng BBQ,FOOD,140000.0,Sườn non nướng sốt BBQ,true,25
+M043,Combo Nhậu Bia,COMBO,249000.0,1 Sụn gà rang muối + 1 Đậu hũ chiên + 2 Bia SG,true,15
 M044,Bia Tiger,DRINK,20000.0,Bia Tiger chai,true,2
 M045,Bia Heineken,DRINK,25000.0,Bia Heineken chai,true,2
-M046,Nuoc Suoi,DRINK,10000.0,Nuoc suoi Aquafina,true,1
-M047,Sting Dau,DRINK,15000.0,Nuoc tang luc Sting dau,true,2
-M048,Com Chien Hai San,FOOD,75000.0,Com chien voi tom va muc,true,15
-M049,Ca Chien Xu,FOOD,110000.0,Ca dieu hong chien xu,true,20
-M050,Banh Trang Tron,SNACK,25000.0,Banh trang tron dac biet,true,5
-M051,Combo BBQ,COMBO,350000.0,1 Ba chi bo + 1 Vu heo + 1 Suon non + rau,true,25
+M046,Nước Suối,DRINK,10000.0,Nước suối Aquafina,true,1
+M047,Sting Dâu,DRINK,15000.0,Nước tăng lực Sting dâu,true,2
+M048,Cơm Chiên Hải Sản,FOOD,75000.0,Cơm chiên với tôm và mực,true,15
+M049,Cá Chiên Xù,FOOD,110000.0,Cá diêu hồng chiên xù,true,20
+M050,Bánh Tráng Trộn,SNACK,25000.0,Bánh tráng trộn đặc biệt,true,5
+M051,Combo BBQ,COMBO,350000.0,1 Ba chỉ bò + 1 Vú heo + 1 Sườn non + rau,true,25
+M052,Sườn non nướng,FOOD,100000.0,Ngon,true,29
+M053,Bò hầm,FOOD,123123.0,Ngon,true,23

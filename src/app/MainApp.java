@@ -77,8 +77,6 @@ public class MainApp {
         inventoryService = new InventoryItemService(DATA_DIR + "inventory.csv");
         paymentService = new PaymentService(DATA_DIR + "payments.csv");
         expenseService = new ExpenseService(DATA_DIR + "expenses.csv");
-        
-        // ===== KHỞI TẠO CÁC SERVICE MỚI =====
         billService = new BillService(DATA_DIR + "bills.csv");
         shiftService = new ShiftService(DATA_DIR + "shifts.csv");
         staffShiftService = new StaffShiftService(DATA_DIR + "staff_shifts.csv");
@@ -134,8 +132,6 @@ public class MainApp {
             inventoryService.loadData();
             paymentService.loadData();
             expenseService.loadData();
-            
-            // Load dữ liệu cho các service mới
             billService.loadData();
             shiftService.loadData();
             staffShiftService.loadData();

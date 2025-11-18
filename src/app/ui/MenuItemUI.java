@@ -236,9 +236,7 @@ public class MenuItemUI {
         }
         pause();
     }
-
-
-    // 💥 THAY THẾ TOÀN BỘ HÀM NÀY 💥
+    
     private static void addNewMenuItem() {
         System.out.println("\n➕ THÊM MÓN MỚI");
         
@@ -321,11 +319,6 @@ public class MenuItemUI {
         pause();
     }
     
-    // ===== BẮT ĐẦU SỬA LỖI 1 =====
-    // HÀM `updateMenuItem` CŨ (DÒNG 284) ĐÃ BỊ XÓA
-    // ===== KẾT THÚC SỬA LỖI 1 =====
-    
-   // 💥 THAY THẾ TOÀN BỘ HÀM NÀY 💥
     private static void deleteMenuItem() {
         System.out.print("\n🗑️  Nhập ID món cần xóa: ");
         String id = getStringInput();
@@ -357,11 +350,6 @@ public class MenuItemUI {
 // ==========================================================
     //       HÀM HELPER CHO QUẢN LÝ NGUYÊN LIỆU
     // ==========================================================
-
-    /**
-     * Hàm mới (được gọi từ case 8)
-     * Bước 1: Yêu cầu người dùng chọn một món ăn
-     */
     private static void manageIngredientsForExistingItem() {
         System.out.print("\n✏️ Nhập ID món ăn bạn muốn quản lý nguyên liệu: ");
         String itemId = getStringInput();
@@ -403,7 +391,7 @@ public class MenuItemUI {
             
             switch (choice) {
                 case 1: addIngredient(itemId); break;
-                case 2: updateIngredient(itemId); break; // <-- Sẽ gọi hàm mới (ở dòng 433)
+                case 2: updateIngredient(itemId); break;
                 case 3: deleteIngredient(itemId); break;
                 case 0: return;
                 default: System.out.println("❌ Lựa chọn không hợp lệ!");
@@ -458,12 +446,6 @@ public class MenuItemUI {
         }
     }
 
-    // ===== BẮT ĐẦU SỬA LỖI 2 =====
-    // THÊM HÀM `updateIngredient` BỊ THIẾU
-    /**
-     * Hàm mới (helper)
-     * Logic sửa nguyên liệu
-     */
     private static void updateIngredient(String itemId) {
         System.out.println("\n✏️ SỬA NGUYÊN LIỆU");
         System.out.print("Nhập ID nguyên liệu cần sửa (ví dụ: I001): ");

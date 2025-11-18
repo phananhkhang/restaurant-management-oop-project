@@ -1,4 +1,51 @@
 shiftId,shiftName,startTime,endTime,shiftType,description
-SH001,Ca Sang,06:00,14:00,MORNING,
-SH002,Ca Chieu,14:00,22:00,AFTERNOON,
-SH003,Ca Dem,21:00,07:00,NIGHT,
+SH001,Ca Sáng,06:00,14:00,MORNING,Ca làm việc buổi sáng
+SH002,Ca Chiều,14:00,22:00,AFTERNOON,Ca làm việc buổi chiều
+SH003,Ca Đêm,21:00,07:00,NIGHT,Ca làm việc qua đêm
+SH004,Ca Sáng Thứ 2,06:00,14:00,MORNING,Ca sáng thứ 2
+SH005,Ca Chiều Thứ 2,14:00,22:00,AFTERNOON,Ca chiều thứ 2
+SH006,Ca Sáng Thứ 3,06:00,14:00,MORNING,Ca sáng thứ 3
+SH007,Ca Chiều Thứ 3,14:00,22:00,AFTERNOON,Ca chiều thứ 3
+SH008,Ca Sáng Thứ 4,06:00,14:00,MORNING,Ca sáng thứ 4
+SH009,Ca Chiều Thứ 4,14:00,22:00,AFTERNOON,Ca chiều thứ 4
+SH010,Ca Sáng Thứ 5,06:00,14:00,MORNING,Ca sáng thứ 5
+SH011,Ca Chiều Thứ 5,14:00,22:00,AFTERNOON,Ca chiều thứ 5
+SH012,Ca Sáng Thứ 6,06:00,14:00,MORNING,Ca sáng thứ 6
+SH013,Ca Chiều Thứ 6,14:00,22:00,AFTERNOON,Ca chiều thứ 6
+SH014,Ca Sáng Thứ 7,06:00,14:00,MORNING,Ca sáng thứ 7
+SH015,Ca Chiều Thứ 7,14:00,22:00,AFTERNOON,Ca chiều thứ 7
+SH016,Ca Sáng Chủ Nhật,06:00,14:00,MORNING,Ca sáng chủ nhật
+SH017,Ca Chiều Chủ Nhật,14:00,22:00,AFTERNOON,Ca chiều chủ nhật
+SH018,Ca Đêm Thứ 2,21:00,07:00,NIGHT,Ca đêm thứ 2
+SH019,Ca Đêm Thứ 3,21:00,07:00,NIGHT,Ca đêm thứ 3
+SH020,Ca Đêm Thứ 4,21:00,07:00,NIGHT,Ca đêm thứ 4
+SH021,Ca Đêm Thứ 5,21:00,07:00,NIGHT,Ca đêm thứ 5
+SH022,Ca Đêm Thứ 6,21:00,07:00,NIGHT,Ca đêm thứ 6
+SH023,Ca Đêm Thứ 7,21:00,07:00,NIGHT,Ca đêm thứ 7
+SH024,Ca Đêm Chủ Nhật,21:00,07:00,NIGHT,Ca đêm chủ nhật
+SH025,Ca Sáng 06:00-10:00,06:00,10:00,MORNING,Ca sáng rút gọn
+SH026,Ca Sáng 10:00-14:00,10:00,14:00,MORNING,Ca sáng tiếp nối
+SH027,Ca Chiều 14:00-18:00,14:00,18:00,AFTERNOON,Ca chiều rút gọn
+SH028,Ca Chiều 18:00-22:00,18:00,22:00,AFTERNOON,Ca chiều tiếp nối
+SH029,Ca Đêm 22:00-02:00,22:00,02:00,NIGHT,Ca đêm rút gọn
+SH030,Ca Đêm 02:00-07:00,02:00,07:00,NIGHT,Ca đêm tiếp nối
+SH031,Ca Trực Cuối Tuần Sáng,06:00,14:00,MORNING,Ca trực cuối tuần
+SH032,Ca Trực Cuối Tuần Chiều,14:00,22:00,AFTERNOON,Ca trực cuối tuần
+SH033,Ca Trực Cuối Tuần Đêm,21:00,07:00,NIGHT,Ca trực cuối tuần
+SH034,Ca Linh Hoạt Sáng,07:00,15:00,MORNING,Ca làm việc linh hoạt
+SH035,Ca Linh Hoạt Chiều,15:00,23:00,AFTERNOON,Ca làm việc linh hoạt
+SH036,Ca Bán Thời Gian Sáng,06:00,10:00,MORNING,Ca bán thời gian
+SH037,Ca Bán Thời Gian Chiều,14:00,18:00,AFTERNOON,Ca bán thời gian
+SH038,Ca Toàn Thời Gian,06:00,22:00,MORNING,Ca toàn thời gian
+SH039,Ca Đặc Biệt Sáng,05:00,13:00,MORNING,Ca đặc biệt
+SH040,Ca Đặc Biệt Chiều,13:00,21:00,AFTERNOON,Ca đặc biệt
+SH041,Ca Đặc Biệt Đêm,20:00,06:00,NIGHT,Ca đặc biệt
+SH042,Ca Thử Việc Sáng,06:00,14:00,MORNING,Ca thử việc
+SH043,Ca Thử Việc Chiều,14:00,22:00,AFTERNOON,Ca thử việc
+SH044,Ca Dự Phòng Sáng,06:00,14:00,MORNING,Ca dự phòng
+SH045,Ca Dự Phòng Chiều,14:00,22:00,AFTERNOON,Ca dự phòng
+SH046,Ca Dự Phòng Đêm,21:00,07:00,NIGHT,Ca dự phòng
+SH047,Ca Tăng Cường Sáng,06:00,14:00,MORNING,Ca tăng cường
+SH048,Ca Tăng Cường Chiều,14:00,22:00,AFTERNOON,Ca tăng cường
+SH049,Ca Tăng Cường Đêm,21:00,07:00,NIGHT,Ca tăng cường
+SH050,Ca Hỗ Trợ,10:00,18:00,MORNING,Ca hỗ trợ linh hoạt

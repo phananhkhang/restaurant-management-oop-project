@@ -87,5 +87,4 @@ public class Staff extends Person implements CsvEntity{
     private static String s(Object o) {
         return (o == null) ? "" : o.toString();
     }
-
 }

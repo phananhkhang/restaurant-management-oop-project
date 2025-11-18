@@ -92,7 +92,7 @@ public abstract class AbstractCsvRepository<T extends CsvEntity> implements Repo
             }
             String line;
             while ((line = br.readLine()) != null) {
-                if (line.startsWith("\ufeff")) {
+                if (line.startsWith("\ufeff")) { 
                     line = line.substring(1);
                 }
                 T t = parseLineSafe(line);
@@ -100,7 +100,7 @@ public abstract class AbstractCsvRepository<T extends CsvEntity> implements Repo
             }
         }
     }
-
+ 
     private T parseLineSafe(String line) {
         try {
             return lineParser.apply(line);

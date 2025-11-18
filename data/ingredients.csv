@@ -1,188 +1,189 @@
 ingredientId,itemId,name,unit,quantity
-I001,M001,Banh pho tuoi,g,150.0
-I002,M001,Thit bo tai,g,100.0
-I003,M001,Thit bo chin,g,50.0
-I004,M001,Nuoc dung pho,ml,400.0
-I005,M001,Hanh la,g,10.0
-I006,M001,Gia do,g,20.0
-I007,M002,Bun roi,g,200.0
-I008,M002,Cha vien nuong,g,100.0
-I009,M002,Cha mieng nuong,g,50.0
-I010,M002,Nuoc mam chua ngot,ml,150.0
-I011,M002,Rau song an kem,g,50.0
-I012,M003,Com tam,g,250.0
-I013,M003,Suon cot let,g,150.0
-I014,M003,Bi (da heo),g,30.0
-I015,M003,Cha trung,g,50.0
-I016,M003,Nuoc mam,ml,50.0
-I017,M004,Vo banh mi,cái,1.0
+I001,M001,Bánh phở tươi,g,150.0
+I002,M001,Thịt bò tái,g,100.0
+I003,M001,Thịt bò chín,g,50.0
+I004,M001,Nước dùng phở,ml,400.0
+I005,M001,Hành lá,g,10.0
+I006,M001,Giá đỗ,g,20.0
+I007,M002,Bún rối,g,200.0
+I008,M002,Chả viên nướng,g,100.0
+I009,M002,Chả miếng nướng,g,50.0
+I010,M002,Nước mắm chua ngọt,ml,150.0
+I011,M002,Rau sống ăn kèm,g,50.0
+I012,M003,Cơm tấm,g,250.0
+I013,M003,Sườn cốt lết,g,150.0
+I014,M003,Bì (da heo),g,30.0
+I015,M003,Chả trứng,g,50.0
+I016,M003,Nước mắm,ml,50.0
+I017,M004,Vỏ bánh mì,cái,1.0
 I018,M004,Pate,g,30.0
-I019,M004,Cha lua,g,40.0
-I020,M004,Thit nguoi,g,30.0
-I021,M004,Do chua,g,20.0
-I022,M004,Rau mui,g,5.0
-I023,M005,Banh trang,cái,3.0
-I024,M005,Tom su,cái,3.0
-I025,M005,Thit ba roi,g,50.0
-I026,M005,Bun tuoi,g,40.0
-I027,M005,Rau song,g,30.0
-I028,M005,Tuong den,ml,50.0
-I029,M006,Banh da nem,cái,5.0
-I030,M006,Thit xay,g,150.0
-I031,M006,Moc nhi,g,10.0
-I032,M006,Mien,g,20.0
-I033,M006,Trung ga,trái,1.0
-I034,M006,Ca rot,g,20.0
-I035,M007,Bot ca phe,g,25.0
-I036,M007,Sua dac,ml,30.0
-I037,M007,Da vien,g,150.0
-I038,M008,Tra man,g,10.0
-I039,M008,Duong,g,15.0
+I019,M004,Chả lụa,g,40.0
+I020,M004,Thịt nguội,g,30.0
+I021,M004,Dồ chua,g,20.0
+I022,M004,Rau mùi,g,5.0
+I023,M005,Bánh tráng,cái,3.0
+I024,M005,Tôm sú,cái,3.0
+I025,M005,Thịt ba rọi,g,50.0
+I026,M005,Bún tươi,g,40.0
+I027,M005,Rau sống,g,30.0
+I028,M005,Tương đen,ml,50.0
+I029,M006,Bánh đa nem,cái,5.0
+I030,M006,Thịt xay,g,150.0
+I031,M006,Mộc nhĩ,g,10.0
+I032,M006,Miến,g,20.0
+I033,M006,Trứng gà,trái,1.0
+I034,M006,Cà rốt,g,20.0
+I035,M007,Bột cà phê,g,25.0
+I036,M007,Sữa đặc,ml,30.0
+I037,M007,Đá viên,g,150.0
+I038,M008,Trà mận,g,10.0
+I039,M008,Đường,g,15.0
 I040,M008,Chanh,cái,1.0
-I041,M008,Da vien,g,150.0
-I042,M009,Cam sanh,trái,3.0
-I043,M009,Duong,g,10.0
-I044,M009,Da vien,g,100.0
-I045,M010,Dau xanh,g,30.0
-I046,M010,Dau do,g,30.0
-I047,M010,Suong sao,g,30.0
-I048,M010,Nuoc cot dua,ml,50.0
-I049,M010,Da bao,g,100.0
-I050,M011,Trung ga,trái,2.0
-I051,M011,Sua tuoi,ml,100.0
-I052,M011,Duong (caramel),g,30.0
-I053,M012,Goi nuoc dung Lau Thai,cái,1.0
-I054,M012,Tom su,g,200.0
-I055,M012,Muc,g,150.0
+I041,M008,Đá viên,g,150.0
+I042,M009,Cam sành,trái,3.0
+I043,M009,Đường,g,10.0
+I044,M009,Đá viên,g,100.0
+I045,M010,Đậu xanh,g,30.0
+I046,M010,Đậu đỏ,g,30.0
+I047,M010,Sương sáo,g,30.0
+I048,M010,Nước cốt dừa,ml,50.0
+I049,M010,Đá bào,g,100.0
+I050,M011,Trứng gà,trái,2.0
+I051,M011,Sữa tươi,ml,100.0
+I052,M011,Đường (caramel),g,30.0
+I053,M012,Gói nước dùng Lẩu Thái,cái,1.0
+I054,M012,Tôm sú,g,200.0
+I055,M012,Mực,g,150.0
 I056,M012,Ngao,g,200.0
-I057,M012,Rau an lau,g,200.0
-I058,M012,Nam kim cham,g,100.0
-I059,M013,Mi trung,g,150.0
-I060,M013,Thit bo,g,100.0
-I061,M013,Cai ngot,g,50.0
-I062,M013,Ca rot,g,30.0
-I063,M013,Dau hao,ml,20.0
-I064,M014,Dui ga,g,250.0
-I065,M014,Mat ong,ml,30.0
-I066,M014,Toi,g,10.0
-I067,M014,Ngu vi huong,g,5.0
-I068,M015,Xa lach roman,g,100.0
-I069,M015,Ca chua bi,g,50.0
-I070,M015,Dua leo,g,50.0
-I071,M015,Dau giam,ml,30.0
-I072,M015,Dau oliu,ml,10.0
-I073,M023,Thit bo phi le,g,150.0
-I074,M023,Khe chua,g,50.0
-I075,M023,Chuoi xanh,g,50.0
-I076,M023,Hanh tay,g,30.0
-I077,M023,Nuoc mam tron goi,ml,50.0
-I078,M023,Dau phong,g,20.0
-I079,M024,Sua,g,150.0
-I080,M024,Tom su,g,50.0
-I081,M024,Thit ba roi,g,50.0
-I082,M024,Ca rot,g,30.0
-I083,M024,Dua leo,g,30.0
-I084,M024,Nuoc mam tron goi,ml,50.0
-I085,M025,Sun ga,g,200.0
-I086,M025,Bot chien gion,g,50.0
-I087,M025,Muoi rang (gia vi),g,10.0
-I088,M025,Sa,g,20.0
-I089,M025,La chanh,g,5.0
-I090,M026,Dau hu non,g,300.0
-I091,M026,Bot chien gion,g,50.0
-I092,M026,Mam tom,ml,30.0
-I093,M027,Vu heo,g,250.0
-I094,M027,Sa te,g,30.0
-I095,M027,Sua dac,ml,15.0
-I096,M027,Dau bap,g,50.0
-I097,M028,Ba chi bo My,g,300.0
-I098,M028,Sot nuong,ml,50.0
-I099,M028,Nam kim cham,g,100.0
-I100,M029,Ngheu,g,500.0
-I101,M029,Sa,cái,3.0
-I102,M029,Ot,g,10.0
-I103,M029,La chanh,g,5.0
-I104,M030,Muc ong,g,250.0
-I105,M030,Sa te,g,30.0
-I106,M030,Hanh tay,g,50.0
-I107,M030,Can tay,g,30.0
-I108,M031,Thit ech,g,300.0
-I109,M031,Mang cay,g,150.0
-I110,M031,Nuoc dung lau,ml,1000.0
-I111,M031,Vang dau,g,50.0
-I112,M031,Rau muong,g,150.0
-I113,M032,Rieu cua,g,200.0
-I114,M032,Bap bo,g,200.0
-I115,M032,Dau hu,g,100.0
-I116,M032,Nuoc dung lau,ml,1200.0
-I117,M032,Bun,g,200.0
-I118,M032,Rau song an lau,g,200.0
-I119,M033,Doi sun,g,200.0
-I120,M033,Rau ram,g,20.0
-I121,M033,Tuong ot,ml,30.0
+I057,M012,Rau ăn lẩu,g,200.0
+I058,M012,Nấm kim châm,g,100.0
+I059,M013,Mì trứng,g,150.0
+I060,M013,Thịt bò,g,100.0
+I061,M013,Cải ngọt,g,50.0
+I062,M013,Cà rốt,g,30.0
+I063,M013,Dầu hào,ml,20.0
+I064,M014,Đùi gà,g,250.0
+I065,M014,Mật ong,ml,30.0
+I066,M014,Tỏi,g,10.0
+I067,M014,Ngũ vị hương,g,5.0
+I068,M015,Xà lách roman,g,100.0
+I069,M015,Cà chua bi,g,50.0
+I070,M015,Dưa leo,g,50.0
+I071,M015,Dầu giấm,ml,30.0
+I072,M015,Dầu ô liu,ml,10.0
+I073,M023,Thịt bò phi lê,g,150.0
+I074,M023,Khế chua,g,50.0
+I075,M023,Chuối xanh,g,50.0
+I076,M023,Hành tây,g,30.0
+I077,M023,Nước mắm trộn gỏi,ml,50.0
+I078,M023,Đậu phộng,g,20.0
+I079,M024,Sứa,g,150.0
+I080,M024,Tôm sú,g,50.0
+I081,M024,Thịt ba rọi,g,50.0
+I082,M024,Cà rốt,g,30.0
+I083,M024,Dưa leo,g,30.0
+I084,M024,Nước mắm trộn gỏi,ml,50.0
+I085,M025,Sụn gà,g,200.0
+I086,M025,Bột chiên giòn,g,50.0
+I087,M025,Muối rang (gia vị),g,10.0
+I088,M025,Sả,g,20.0
+I089,M025,Lá chanh,g,5.0
+I090,M026,Đậu hũ non,g,300.0
+I091,M026,Bột chiên giòn,g,50.0
+I092,M026,Mắm tôm,ml,30.0
+I093,M027,Vú heo,g,250.0
+I094,M027,Sa tế,g,30.0
+I095,M027,Sữa đặc,ml,15.0
+I096,M027,Dầu bắp,g,50.0
+I097,M028,Ba chỉ bò Mỹ,g,300.0
+I098,M028,Sốt nướng,ml,50.0
+I099,M028,Nấm kim châm,g,100.0
+I100,M029,Nghêu,g,500.0
+I101,M029,Sả,cái,3.0
+I102,M029,Ớt,g,10.0
+I103,M029,Lá chanh,g,5.0
+I104,M030,Mực ống,g,250.0
+I105,M030,Sa tế,g,30.0
+I106,M030,Hành tây,g,50.0
+I107,M030,Cần tây,g,30.0
+I108,M031,Thịt ếch,g,300.0
+I109,M031,Măng cay,g,150.0
+I110,M031,Nước dùng lẩu,ml,1000.0
+I111,M031,Vàng đau,g,50.0
+I112,M031,Rau muống,g,150.0
+I113,M032,Riêu cua,g,200.0
+I114,M032,Bắp bò,g,200.0
+I115,M032,Đậu hũ,g,100.0
+I116,M032,Nước dùng lẩu,ml,1200.0
+I117,M032,Bún,g,200.0
+I118,M032,Rau sống ăn lẩu,g,200.0
+I119,M033,Đùi sụn,g,200.0
+I120,M033,Rau răm,g,20.0
+I121,M033,Tương ớt,ml,30.0
 I122,M034,Tai heo,g,300.0
-I123,M034,Sa,g,50.0
-I124,M034,Tac (Quat),trái,5.0
-I125,M034,Ot,g,10.0
-I126,M034,Nuoc mam ngam,ml,100.0
-I127,M035,Chan ga,g,300.0
-I128,M035,Sot Thai,ml,100.0
-I129,M035,Coc non,g,50.0
-I130,M035,Xoai xanh,g,50.0
-I131,M036,Thit ech,g,250.0
-I132,M036,Bot chien,g,50.0
-I133,M036,Muoi rang (gia vi),g,10.0
-I134,M036,La lot,g,30.0
-I135,M037,Tom su,g,250.0
-I136,M037,Muoi ot xanh,g,30.0
+I123,M034,Sả,g,50.0
+I124,M034,Tắc (Quất),trái,5.0
+I125,M034,Ớt,g,10.0
+I126,M034,Nước mắm ngâm,ml,100.0
+I127,M035,Chân gà,g,300.0
+I128,M035,Sốt Thái,ml,100.0
+I129,M035,Cọc non,g,50.0
+I130,M035,Xoài xanh,g,50.0
+I131,M036,Thịt ếch,g,250.0
+I132,M036,Bột chiên,g,50.0
+I133,M036,Muối rang (gia vị),g,10.0
+I134,M036,Lá lốt,g,30.0
+I135,M037,Tôm sú,g,250.0
+I136,M037,Muối ớt xanh,g,30.0
 I137,M037,Chanh,trái,0.5
-I138,M038,Lac,g,150.0
-I139,M038,Gia vi Hung Liu,g,5.0
-I140,M038,Muoi,g,2.0
-I141,M039,Nem chua (song),g,200.0
-I142,M039,Bot chien xu,g,50.0
-I143,M039,Tuong ot,ml,30.0
-I144,M040,Thit bo phi le,g,200.0
-I145,M040,Ot chuong (do),g,50.0
-I146,M040,Ot chuong (xanh),g,50.0
-I147,M040,Hanh tay,g,50.0
-I148,M040,Sot tieu den,ml,40.0
-I149,M040,Khoai tay,g,100.0
-I150,M041,Ca keo,g,300.0
-I151,M041,Muoi ot,g,20.0
-I152,M041,Rau ram,g,30.0
-I153,M042,Suon non heo,g,350.0
-I154,M042,Sot BBQ,ml,60.0
-I155,M042,Mat ong,ml,10.0
-I156,M043,Sun ga (nguyen lieu),g,150.0
-I157,M043,Dau hu non (nguyen lieu),g,200.0
-I158,M043,Bia Sai Gon,cái,2.0
+I138,M038,Lạc,g,150.0
+I139,M038,Gia vị Hùng Liù,g,5.0
+I140,M038,Muối,g,2.0
+I141,M039,Nem chua (sống),g,200.0
+I142,M039,Bột chiên xù,g,50.0
+I143,M039,Tương ớt,ml,30.0
+I144,M040,Thịt bò phi lê,g,200.0
+I145,M040,Ớt chuông (đỏ),g,50.0
+I146,M040,Ớt chuông (xanh),g,50.0
+I147,M040,Hành tây,g,50.0
+I148,M040,Sốt tiêu đen,ml,40.0
+I149,M040,Khoai tây,g,100.0
+I150,M041,Cá kèo,g,300.0
+I151,M041,Muối ớt,g,20.0
+I152,M041,Rau răm,g,30.0
+I153,M042,Sườn non heo,g,350.0
+I154,M042,Sốt BBQ,ml,60.0
+I155,M042,Mật ong,ml,10.0
+I156,M043,Sụn gà (nguyên liệu),g,150.0
+I157,M043,Đậu hũ non (nguyên liệu),g,200.0
+I158,M043,Bia Sài Gòn,cái,2.0
 I159,M044,Bia Tiger,cái,1.0
 I160,M045,Bia Heineken,cái,1.0
-I161,M046,Nuoc suoi Aquafina,cái,1.0
-I162,M047,Nuoc tang luc Sting,cái,1.0
-I163,M048,Com,g,200.0
-I164,M048,Tom,g,50.0
-I165,M048,Muc,g,50.0
-I166,M048,Trung ga,trái,1.0
-I167,M048,Dau que,g,30.0
-I168,M048,Ca rot,g,20.0
-I169,M048,Dau an,ml,15.0
-I170,M049,Ca dieu hong,g,500.0
-I171,M049,Bot chien xu,g,100.0
-I172,M049,Trung ga,trái,1.0
-I173,M049,Dau an (chien),ml,250.0
-I174,M049,Nuoc mam gung,ml,50.0
-I175,M050,Banh trang,g,50.0
-I176,M050,Xoai xanh,g,30.0
-I177,M050,Trung cut,trái,3.0
-I178,M050,Kho bo,g,20.0
-I179,M050,Dau phong,g,10.0
-I180,M050,Sot bo,ml,25.0
-I181,M050,Rau ram,g,5.0
-I182,M051,Ba chi bo My (nguyen lieu),g,200.0
-I183,M051,Vu heo (nguyen lieu),g,200.0
-I184,M051,Suon non (nguyen lieu),g,200.0
-I185,M051,Rau nuong (dau bap ca tim),g,150.0
-I186,M051,Sot cham,ml,50.0
-I187,M050,I181,g,30.0
+I161,M046,Nước suối Aquafina,cái,1.0
+I162,M047,Nước tăng lực Sting,cái,1.0
+I163,M048,Cơm,g,200.0
+I164,M048,Tôm,g,50.0
+I165,M048,Mực,g,50.0
+I166,M048,Trứng gà,trái,1.0
+I167,M048,Đậu que,g,30.0
+I168,M048,Cà rốt,g,20.0
+I169,M048,Dầu ăn,ml,15.0
+I170,M049,Cá diêu hồng,g,500.0
+I171,M049,Bột chiên xù,g,100.0
+I172,M049,Trứng gà,trái,1.0
+I173,M049,Dầu ăn (chiên),ml,250.0
+I174,M049,Nước mắm gừng,ml,50.0
+I175,M050,Bánh tráng,g,50.0
+I176,M050,Xoài xanh,g,30.0
+I177,M050,Trứng cút,trái,3.0
+I178,M050,Khô bò,g,20.0
+I179,M050,Đậu phộng,g,10.0
+I180,M050,Sốt bơ,ml,25.0
+I181,M050,Rau răm,g,5.0
+I182,M051,Ba chỉ bò Mỹ (nguyên liệu),g,200.0
+I183,M051,Vú heo (nguyên liệu),g,200.0
+I184,M051,Sườn non (nguyên liệu),g,200.0
+I185,M051,Rau nướng (đậu bắp cà tím),g,150.0
+I186,M051,Sốt chấm,ml,50.0
+I187,M050,Hành lá (trang trí),g,30.0
+I188,M053,Bò,g,12.0

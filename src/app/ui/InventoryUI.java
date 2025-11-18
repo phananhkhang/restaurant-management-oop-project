@@ -328,7 +328,6 @@ public class InventoryUI {
 
             // chọn đơn vị
             System.out.println("\n🧾 ĐƠN VỊ (chọn số):");
-            // Sửa thứ tự hiển thị của menu lặp lại cho rõ ràng
             System.out.println(" 1. 🟦  PCS   — chiếc");
             System.out.println(" 2. 📦  BOX   — hộp");
             System.out.println(" 3. 🧩  PACK  — gói");
@@ -460,6 +459,7 @@ public class InventoryUI {
             System.out.println("\n🔁 1. Sửa tiếp | 0. Quay lại");
             System.out.print("👉 Chọn: ");
             if (getIntInput() != 1) return;
+            continue;
         }
     }
 
@@ -513,6 +513,7 @@ public class InventoryUI {
             System.out.println("\n🔁 1. Xóa tiếp | 0. Quay lại");
             System.out.print("👉 Chọn: ");
             if (getIntInput() != 1) return;
+            continue;
         }
     }
 
