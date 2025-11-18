@@ -76,7 +76,7 @@ public class InventoryUI {
             System.out.println("\n╔═══════════════════════════════════════════════════════╗");
             System.out.println("║           📦 QUẢN LÝ KHO                              ║");
             System.out.println("╚═══════════════════════════════════════════════════════╝");
-            System.out.println(" 1. Xem danh sách nguyên liệu");
+            System.out.println(" 1. Xem danh sách");
             System.out.println(" 2. Thống kê kho");
             System.out.println(" 0. Quay lại");
             System.out.println("═══════════════════════════════════════════════════════");
@@ -97,7 +97,7 @@ public class InventoryUI {
             // Hiển thị bảng ngay lập tức
             List<InventoryItem> items = getInventoryService().getAll();
             System.out.println("\n╔═══════════════════════════════════════════════════════╗");
-            System.out.println("║           📋 DANH SÁCH NGUYÊN LIỆU                    ║");
+            System.out.println("║           📋 DANH SÁCH                 ║");
             System.out.println("╚═══════════════════════════════════════════════════════╝");
             System.out.println("\n📦 TỒN KHO (" + items.size() + " loại)");
             System.out.println(repeat("─", 102));
@@ -114,9 +114,9 @@ public class InventoryUI {
             // Menu hành động
             System.out.println("\n" + repeat("─", 102));
             System.out.println("🔧 HÀNH ĐỘNG:");
-            System.out.println(" 1. ➕ Thêm nguyên liệu mới");
-            System.out.println(" 2. ✏️  Sửa nguyên liệu");
-            System.out.println(" 3. 🗑️  Xóa nguyên liệu");
+            System.out.println(" 1. ➕ Thêm vào kho");
+            System.out.println(" 2. ✏️  Sửa hàng tồn kho");
+            System.out.println(" 3. 🗑️  Xóa hàng tồn kho");
             System.out.println(" 4. 🔍 Tìm kiếm");
             System.out.println(" 5. 📥 Nhập kho (tăng tồn)");
             System.out.println(" 6. 📤 Xuất kho (giảm tồn)");
@@ -141,7 +141,7 @@ public class InventoryUI {
     private static void increaseStock() {
         while (true) {
             // Sửa định dạng hiển thị
-            System.out.print("\n📥 NHẬP KHO - Mã nguyên liệu (gõ 0 để quay lại): "); 
+            System.out.print("\n📥 NHẬP KHO - Mã hàng kho (gõ 0 để quay lại): "); 
             String id = getStringInput();
             if (id == null) id = "";
 
@@ -161,7 +161,7 @@ public class InventoryUI {
             
             var opt = getInventoryService().getById(id);
             if (opt.isEmpty()) {
-                System.out.println("❌ Không tìm thấy nguyên liệu với mã: " + id);
+                System.out.println("❌ Không tìm thấy hàng tồn kho với mã: " + id);
                 // sau lỗi cho phép nhập lại hoặc quay về
                 System.out.println("\n🔁 1. Nhập lại");
                 System.out.println("   0. Quay lại");
@@ -222,7 +222,7 @@ public class InventoryUI {
    private static void decreaseStock() {
         while (true) {
             // Sửa định dạng hiển thị
-            System.out.print("\n📤 XUẤT KHO - Mã nguyên liệu (gõ 0 để quay lại): ");
+            System.out.print("\n📤 XUẤT KHO - Mã hàng kho (gõ 0 để quay lại): ");
             String id = getStringInput();
             if (id == null) id = "";
 
@@ -242,7 +242,7 @@ public class InventoryUI {
 
             var opt = getInventoryService().getById(id);
             if (opt.isEmpty()) {
-                System.out.println("❌ Không tìm thấy nguyên liệu với mã: " + id);
+                System.out.println("❌ Không tìm thấy hàng tồn kho với mã: " + id);
                 System.out.println("\n🔁 1. Nhập lại");
                 System.out.println("   0. Quay lại");
                 System.out.print("👉 Chọn: ");
@@ -305,10 +305,10 @@ public class InventoryUI {
         }
     }
 
-    //  ==== Thêm nguyên liệu =====
+    //  ==== Thêm =====
     private static void addNewInventoryItem() {
         while (true) {
-            System.out.println("\n➕ THÊM NGUYÊN LIỆU MỚI");
+            System.out.println("\n➕ THÊM hàng tồn kho MỚI");
             String id = IdGenerator.generateInventoryId(getInventoryService().getAll());
             System.out.println("🆔 ID tự động: " + id);
 
@@ -369,7 +369,7 @@ public class InventoryUI {
                 // 💾 Tự động lưu vào inventory.csv
                 MainApp.autoSave();
                 
-                System.out.println("✅ Thêm nguyên liệu thành công! ID: " + id);
+                System.out.println("✅ Thêm hàng tồn kho thành công! ID: " + id);
             } catch (Exception e) {
                 System.out.println("❌ Lỗi: " + e.getMessage());
             }
@@ -383,10 +383,10 @@ public class InventoryUI {
         }
     }
 
-    //  ==== Sửa nguyên liệu =====
+    //  ==== Sửa =====
     private static void updateInventoryItem() {
         while (true) {
-            System.out.print("\n✏️  SỬA NGUYÊN LIỆU - Nhập mã (gõ 0 để quay lại): ");
+            System.out.print("\n✏️  SỬA - Nhập mã (gõ 0 để quay lại): ");
             String id = getStringInput();
             if (id == null) id = "";
             if ("0".equals(id)) return;
@@ -398,7 +398,7 @@ public class InventoryUI {
 
             var opt = getInventoryService().getById(id);
             if (opt.isEmpty()) {
-                System.out.println("❌ Không tìm thấy nguyên liệu với mã: " + id);
+                System.out.println("❌ Không tìm thấy với mã: " + id);
                 System.out.println("\n🔁 1. Nhập lại | 0. Quay lại");
                 System.out.print("👉 Chọn: ");
                 if (getIntInput() == 0) return;
@@ -466,7 +466,7 @@ public class InventoryUI {
     //  ==== Xóa nguyên liệu =====
     private static void deleteInventoryItem() {
         while (true) {
-            System.out.print("\n🗑️  XÓA NGUYÊN LIỆU - Nhập mã (gõ 0 để quay lại): ");
+            System.out.print("\n🗑️  XÓA - Nhập mã (gõ 0 để quay lại): ");
             String id = getStringInput();
             if (id == null) id = "";
             if ("0".equals(id)) return;
@@ -478,7 +478,7 @@ public class InventoryUI {
 
             var opt = getInventoryService().getById(id);
             if (opt.isEmpty()) {
-                System.out.println("❌ Không tìm thấy nguyên liệu với mã: " + id);
+                System.out.println("❌ Không tìm thấy với mã: " + id);
                 System.out.println("\n🔁 1. Nhập lại | 0. Quay lại");
                 System.out.print("👉 Chọn: ");
                 if (getIntInput() == 0) return;
@@ -517,10 +517,10 @@ public class InventoryUI {
         }
     }
 
-    //  ==== Tìm kiếm nguyên liệu =====
+    //  ==== Tìm kiếm =====
     private static void searchInventoryItem() {
         while (true) {
-            System.out.println("\n🔍 TÌM KIẾM NGUYÊN LIỆU");
+            System.out.println("\n🔍 TÌM KIẾM");
             System.out.print("Nhập mã hoặc tên (gõ 0 để quay lại): ");
             String keyword = getStringInput();
             if (keyword == null) keyword = "";
